@@ -1,0 +1,42 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "/images/128.png",
+         "16": "/images/16.png",
+         "32": "/images/32.png",
+         "48": "/images/48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://tinder.com/*" ]
+   }, {
+      "js": [ "content.overrides.js" ],
+      "matches": [ "*://tinder.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ext_desc__",
+   "host_permissions": [ "*://tinder.com/*" ],
+   "icons": {
+      "128": "/images/128.png",
+      "16": "/images/16.png",
+      "32": "/images/32.png",
+      "48": "/images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6LeRpUrdkjC/tC4sdWs7iWHxCp9WddYhn74XmL5usAh4PxMSL027xO3VM7yOIdlGRPtFY+8lJnCJ48qn+XbVWjKREm5+1kErmJj+RRFi8uqPc2ylwD6rycr3bem/v9cwlwxJsWu780dzp+0EM16jzTyv+eWrYib8/at+/ZUWtDBWyzqMQSVIL5kxjFLFQe8QrA2BrrZOm1forxxbq0rps2eBl4HCrZT3TKf+hyMpXr+WPjL73za+k/MKlRaq740iejd8QXPaVDp0g6rRsVvJ8Ncj1AOgsxrTdcR7IfhfdWGXLitVJp4nDXJo/p6vsQbOy2UyHqsedOzFB88QMKkuMQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_ext_name__",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3.5",
+   "version_name": "1.0.3.5",
+   "web_accessible_resources": [ {
+      "matches": [ "*://tinder.com/*" ],
+      "resources": [ "content.injected.js" ]
+   } ]
+}

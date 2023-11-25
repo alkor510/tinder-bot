@@ -1,0 +1,1 @@
+(()=>{"use strict";{const e=()=>{chrome.tabs.query({}).then(e=>{(e||[]).forEach(e=>{var t;null!=(t=e)&&t.url&&/^(http|https):\/\/tinder.com($|(\/*)|\?)/.test(null==t?void 0:t.url)&&chrome.tabs.reload(e.id)})})};chrome.runtime.onInstalled.addListener(()=>{e()}),chrome.runtime.onMessage.addListener(e=>(e.type,!0))}})();

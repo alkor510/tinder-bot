@@ -1,0 +1,114 @@
+{
+   "apply_changes": {
+      "description": "Apply changes",
+      "message": "Değişiklikleri uygula"
+   },
+   "beepLabel": {
+      "description": "Title for start button",
+      "message": "bip sesi"
+   },
+   "beepTitle": {
+      "description": "Title for beep toggler",
+      "message": "Beğen düğmesi kullanılamadığında bip sesi duymak istiyorsanız etkinleştirin"
+   },
+   "cancel": {
+      "description": "Cancel",
+      "message": "İptal"
+   },
+   "changeGeoLocationLabel": {
+      "description": "change Geo Location label",
+      "message": "Coğrafi Konumu Değiştir"
+   },
+   "changeGeoLocationTitle": {
+      "description": "change geo location title",
+      "message": "Coğrafi Konumu değiştirmek için tıklayın"
+   },
+   "change_location_alert": {
+      "description": "TINDER may not apply the location change immediately, but over time (usually 10 - 15 minutes)",
+      "message": "TINDER konum değişikliğini hemen uygulamayabilir, ancak zamanla (genellikle 10 - 15 dakika)"
+   },
+   "enable": {
+      "description": "Enable",
+      "message": "Olanak vermek"
+   },
+   "enabled": {
+      "description": "Enabled",
+      "message": "Etkinleştirilmiş"
+   },
+   "ext_desc": {
+      "description": "The description of app.",
+      "message": "Ücretsiz Otomatik kaydırıcı (tıklayıcı, beğenen). Konum değişikliği. Otomatik olarak sağa kaydırın(tıklayın, beğenin). Sınırsız. Özgür."
+   },
+   "ext_name": {
+      "description": "The name of app.",
+      "message": "T-SWINDLER (TINDER için ekstra)"
+   },
+   "incorrect_page": {
+      "description": "Incorrect page  for swiping",
+      "message": "Otomatik kaydırma bu sayfada çalışamaz! Lütfen bir işlem seçin veya otomatik olarak yönlendirilinceye kadar 10 saniye bekleyin."
+   },
+   "latitude": {
+      "description": "Latitude",
+      "message": "enlem"
+   },
+   "longitude": {
+      "description": "longitude",
+      "message": "boylam"
+   },
+   "my_current_location": {
+      "description": "my real current location",
+      "message": "gerçek şu anki konumum"
+   },
+   "name": {
+      "description": "name",
+      "message": "isim"
+   },
+   "reset": {
+      "description": "Reset",
+      "message": "Sıfırla"
+   },
+   "resetCounterLabel": {
+      "description": "Reset Counter",
+      "message": "Sayacı Sıfırla"
+   },
+   "resetCounterTitle": {
+      "description": "Reset Counter",
+      "message": "Sayacı sıfırlamak istiyorsanız sıfırla'yı tıklayın"
+   },
+   "return_required_page": {
+      "description": "return to the required page msg",
+      "message": "Gerekli sayfaya dönülsün mü?"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Arama"
+   },
+   "start_btn_hint": {
+      "description": "Title for start button",
+      "message": "Kaydırmayı etkinleştirmek için düğmeyi tıklayın"
+   },
+   "start_btn_title": {
+      "description": "Title for start button",
+      "message": "Başlangıç"
+   },
+   "stop_app": {
+      "description": "return to the required page msg",
+      "message": "Otomatik kaydırmalar durdurulsun mu?"
+   },
+   "stop_btn_hint": {
+      "description": "Title for start button",
+      "message": "Kaydırmayı duraklatmak için düğmeyi tıklayın"
+   },
+   "stop_btn_title": {
+      "description": "Title for stop button",
+      "message": "Durmak"
+   },
+   "total_right_label": {
+      "description": "Title for start button",
+      "message": "toplam beğeni"
+   },
+   "use_fake_location": {
+      "description": "fake location",
+      "message": "sahte konum"
+   }
+}
